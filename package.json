@@ -1,0 +1,24 @@
+{
+  "name": "proyecto-master",
+  "version": "1.0.0",
+  "description": "Proyecto para Máster diseño webs",
+  "source": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npm-run-all clean parcel:dev",
+    "build": "npm-run-all clean parcel:build",
+    "parcel:dev": "parcel index.html",
+    "parcel:build": "parcel build index.html",
+    "clean": "rimraf dist .cache .cache-loader"
+  },
+  "author": "JMEL",
+  "license": "ISC",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "parcel": "^2.0.0",
+    "rimraf": "^3.0.2"
+  },
+  "dependencies": {
+    "perfect-scrollbar": "^1.5.3"
+  }
+}
