@@ -1,0 +1,120 @@
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    height: 100vh;
+
+}
+
+/*Body página principal index.html*/
+
+._backgrounds__inicio, ._backgrounds__presentacion, ._backgrounds__enlaces{
+    background-image: url(522716_114562378732281_1055335040_n.216ca222.jpeg);
+}
+
+._backgrounds__globos {
+    /* background-image: url("./img/tuco20170317080617-1024x683.jpeg"); */
+}
+
+._backgrounds__playas {
+    /* background-image: url("./img/A4A-playas-accesibles-guia-espana-1.jpeg"); */
+}
+/*Estilos generales*/
+*{
+    margin: 0;
+    padding: 0;
+}
+._style__flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+/*Título principal*/
+h1{
+    padding-top: 150px;
+    text-align:center;
+    background-color:rgba(66, 184, 129, 0.1);
+    color: white;
+}
+/*Barra de navegación*/
+._style__menu {
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+
+}
+/*ul principal*/
+._style__nave {
+    list-style: none;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+/*li principal*/
+._style__item{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    text-align:center;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+}
+/*li principal:hover*/
+._style__item:hover{
+    background-color: rgba(230, 100, 49, 0.1);
+    border: 1px solid black;
+}
+/*Enlaces desde li principal*/
+._style__item a{
+    display: block;
+    color: #000;
+    text-decoration: none;
+}
+._style__item a:hover{
+    /* color:aquamarine; */
+}
+/*ul secundario*/
+._style__sub_nave {
+    display: none;
+    position: absolute;
+    top: 15px;
+    padding-top: 25px;
+}
+/*li secundario*/
+._style__sub_item {
+    list-style: none;
+}
+._style__item:hover ._style__sub_nave {
+    display: block;
+}
+div {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+p {
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: xx-large;
+    font-weight: bold;
+    width: 700px;
+    height: 300px;
+    border-radius: 20px;
+    text-align: center;
+    border: 0;
+}
+
+/*# sourceMappingURL=index.cb41b962.css.map */
